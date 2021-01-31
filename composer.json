@@ -1,0 +1,22 @@
+{
+    "name": "mechanic/twig-heroicons",
+    "description": "Twig extension for Heroicons",
+    "type": "library",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "simpson",
+            "email": "simpsonwork@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "twig/twig": "^2.4|^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mechanic\\Twig\\Extra\\Heroicons\\": "src"
+        }
+    }
+}
